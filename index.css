@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #f5f5f5;
+}
+tr.highlight {
+    background-color: #17e6ed !important;
+}
+
+tr.highlight:hover {
+    background-color: #ffffd6 !important;
+}
+.section-header {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+}
+.highlight {
+    background-color: #ffff99 !important;
+}
+.highlight-text {
+    color: red;
+    font-weight: bold;
+}
+#nameSelect {
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 16px;
+}
+.align-left {
+    text-align: left !important;
+}
+.full-width {
+    text-align: left;
+    font-weight: bold;
+}
